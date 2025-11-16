@@ -1,13 +1,13 @@
-# 🎮 Blackjack Game — Python Console
+# Blackjack-Game (CLI)
 
-A fully featured terminal Blackjack game with card ASCII art and a scoreboard.
+Terminal-based Blackjack (ASCII cards) with:
+- Menu (Play / Rules / Stats / Reset / Exit)
+- Betting & chips
+- Dealer difficulty: Easy / Hard
+- Loading animation
+- Persistent stats stored in `src/blackjack/stats.json`
 
-## 🃏 How to Play
-- Run the game
-- Enter how many rounds you want to play
-- Choose Hit (H) or Stand (S)
-- Try to beat the dealer without going over 21!
-
-## ▶️ Run
+## Run
+From project root:
 ```bash
-python main.py
+python -m src.main

@@ -1,4 +1,5 @@
-```txt
-__pycache__/
+pycache/
 *.pyc
+venv/
 .env
+.DS_Store
